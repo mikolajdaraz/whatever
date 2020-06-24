@@ -1,0 +1,185 @@
+body
+{
+	background-color: rgb(27, 26, 25);
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: #efefef;
+	margin: 20px;
+}
+
+.drummers
+{
+	text-align: center;
+}
+
+.drummers img
+{
+	width: 100%;
+	height: auto;
+}
+
+.drummers p
+{
+	margin-bottom: 30px;
+}
+
+.drummers figcaption
+{
+	margin-top: 8px;
+}
+.navbar
+{
+	min-height: 57px;
+}
+
+.bg-drummers
+{
+	background-color: #a82929 !important;
+}
+.top10
+{
+	text-align: justify;
+	font-size: 16px;
+	padding: 30px;
+	margin-bottom: 40px;
+}
+
+.list-group-item-dark
+{
+	background-color: #373a3d;
+	color: white;
+}
+
+.list-group-item-dark:hover
+{
+	background-color: #91a33b !important;
+}
+
+.list-group .active
+{
+	background-color: #91a33b !important;
+	cursor: default;
+}
+
+.blockquote
+{
+	line-height: 120%;
+}
+
+@media (max-width: 575px)
+{
+	.top10
+	{
+		margin: 40px 20px;
+		text-align: left;
+		font-size: 15px;
+	}
+	
+	.float-left, .float-right
+	{
+		max-width: 50%;
+	}
+	
+	.blockquote
+	{
+		font-size: 17px;
+	}
+	
+	.list-group
+	{
+		text-align: center;
+	}
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.styling
+{
+	font-weight: 800;
+	color: lime;
+}
+.input_div
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.input_div .input
+{
+	padding: 0.5rem 1rem;
+	height: 50px;
+	outline: none;
+	border: none;
+	background-color: #fff;
+	width: 450px;
+	font-size: 1.15rem;
+	margin: 0.25rem;
+	border-radius: 25px;
+}
+.addButton
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	color: #fff;
+	margin: 0.25px;
+	background-color: lime;
+	cursor: pointer;
+}
+.addButton:hover
+{
+	opacity: 0.7;
+}
+.item 
+{
+	padding: 0.5rem;
+	margin-bottom: 1.5rem;
+	border-bottom: 4px solid #fff;
+}
+.item_input
+{
+	background: none;
+	outline: none;
+	color: #fff;
+	border: none;
+	width: 350px;
+	font-size: 1.4rem;
+}
+.editButton
+{
+	font-size: 1.4rem;
+	margin: 0 0.75rem;
+	background: none;
+	outline: none;
+	color: lime;
+	border: none;
+}
+.removeButton
+{
+	font-size: 1.4rem;
+	margin: 0 0.75rem;
+	background: none;
+	outline: none;
+	color: #E00;
+	border: none;
+}
+.video
+{
+	max-width: 100%;
+	height: auto;
+	padding: 5rem;
+}
+
+
